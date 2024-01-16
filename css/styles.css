@@ -3,7 +3,12 @@
     padding: 0;
 }
 
-body {}
+body {
+    scrollbar-width: 0;
+}
+.body::-webkit-scrollbar{
+    display: none;
+}
 
 .header {
 
@@ -444,7 +449,7 @@ footer h2 {
 
 /* schedule page start here  */
 .sch_lst {
-    min-height: 86vh;
+    min-height: 85vh;
 }
 
 .m_list {}
@@ -454,7 +459,9 @@ footer h2 {
     padding: 0;
 }
 
-.m_list ul li {}
+.m_list ul li {
+    /* margin: 10px 0px; */
+}
 
 .time_ {
     border: 1px solid #00000029;
@@ -906,7 +913,11 @@ footer h2 {
     font-size: 14px;
 }
 
-.quicktAmt {}
+.quicktAmt {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
 
 .btn_amt {
     border: 1px solid #0000003b;
@@ -915,6 +926,7 @@ footer h2 {
     box-shadow: 0 0 10px #00000014;
     background: #10203b;
     color: #fff;
+    margin: 0px 5px;
 }
 
 .war_limit {
@@ -964,19 +976,143 @@ footer h2 {
     width: 33.33%;
     padding: 5px;
 }
-.btn_x{
-    
-background: transparent;
-    
-padding: 3px;
-    
-display: flex;
-    
-justify-content: center;
-    
-align-items: center;
-    
-border: navajowhite;
-    
-color: #10203b;
+
+.btn_x {
+
+    background: transparent;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #10203b;
 }
+
+/* order page start here  */
+.order_lst {
+    padding: 20px;
+    box-shadow: 0 0 20px #2b638d45;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background: #365486;
+}
+
+.leagueTitle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.leagueTitle img {
+    width: 30px;
+    margin-right: 8px;
+}
+
+.leagueTitle p {
+    margin: 0;
+    font-size: 14px;
+    color: #eae1e1;
+}
+
+.teamVs {
+    display: flex;
+    font-size: 14px;
+}
+
+.teamVs p {
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding: 0px 15px 0px 0px;
+    color: #eae1e1;
+    font-size: 10px;
+}
+
+.teamVs strong {}
+
+.teamVs span {
+    width: fit-content;
+    min-width: 80px;
+    color: #eae1e1;
+    font-size: 12px;
+}
+
+.bit_ {
+    margin: 10px 0px;
+    margin-bottom: 0px;
+}
+
+.bit_ p {
+    margin: 0;
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.bit_ h6 {
+    background: #6baddf;
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #ebe0e0;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.bit_ h6 span {
+    color: #fff;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.stack {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stack p {
+    color: #fff;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.stack h6 {
+    color: #fff;
+    margin: 0px;
+}
+
+.order_list_container {
+    background-color: #10203b;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status p {
+    color: #ede3e3;
+    font-size: 12px;
+    margin: 0;
+}
+
+.status h6 {
+    font-size: 18px;
+    margin: 0;
+    font-size: 16px;
+}
+.status h6.win{
+    color: #04c504 !important;
+}
+.status h6.lose{
+    color: #d00000;
+}
+.sch_lst::-webkit-scrollbar{
+    display: none;
+}
+
+/* order page end here  */
