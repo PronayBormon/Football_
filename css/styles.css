@@ -914,9 +914,11 @@ footer h2 {
 }
 
 .quicktAmt {
-    margin: auto;
+    /* margin: auto; */
+    width: 100%;
+    overflow: auto;
     display: flex;
-    justify-content: center;
+    scrollbar-width: 0;
 }
 
 .btn_amt {
@@ -926,7 +928,9 @@ footer h2 {
     box-shadow: 0 0 10px #00000014;
     background: #10203b;
     color: #fff;
-    margin: 0px 5px;
+    margin: 0px 4px;
+    min-width: fit-content;
+    font-size: 14px;
 }
 
 .war_limit {
@@ -1092,6 +1096,7 @@ footer h2 {
 .status {
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .status p {
@@ -1103,7 +1108,8 @@ footer h2 {
 .status h6 {
     font-size: 18px;
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
+    color: #3c84bb;
 }
 .status h6.win{
     color: #04c504 !important;
@@ -1114,5 +1120,20 @@ footer h2 {
 .sch_lst::-webkit-scrollbar{
     display: none;
 }
+.quicktAmt::-webkit-scrollbar{
+    display: none;
+}
+.order_list_container .quicktAmt{
+    
+padding-top: 10px;
+}
+.order_list_container .btn_amt{
 
+background: #6baddf;
+
+padding: 1px 5px;
+}
+.header_top span{
+    font-size: 18px;
+}
 /* order page end here  */
