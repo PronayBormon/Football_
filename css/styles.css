@@ -6,7 +6,8 @@
 body {
     scrollbar-width: 0;
 }
-.body::-webkit-scrollbar{
+
+.body::-webkit-scrollbar {
     display: none;
 }
 
@@ -34,7 +35,7 @@ body {
 
 .header_top h1 {
 
-    font-size: 18px;
+    font-size: 14px;
 
     text-align: center;
 
@@ -169,6 +170,7 @@ body {
     border: 1px solid #10203b;
     border-radius: 50%;
     background: #10203b;
+    margin: auto;
 }
 
 .sec_icon p {
@@ -556,10 +558,9 @@ footer h2 {
 
 .sch_lst nav {
     position: sticky;
-    top: 54px;
+    top: 49px;
     background: #fff;
     z-index: 11;
-
 }
 
 .sch_lst nav button {
@@ -1111,29 +1112,362 @@ footer h2 {
     font-size: 14px;
     color: #3c84bb;
 }
-.status h6.win{
+
+.status h6.win {
     color: #04c504 !important;
 }
-.status h6.lose{
+
+.status h6.lose {
     color: #d00000;
 }
-.sch_lst::-webkit-scrollbar{
+
+.sch_lst::-webkit-scrollbar {
     display: none;
 }
-.quicktAmt::-webkit-scrollbar{
+
+.quicktAmt::-webkit-scrollbar {
     display: none;
 }
-.order_list_container .quicktAmt{
-    
-padding-top: 10px;
-}
-.order_list_container .btn_amt{
 
-background: #6baddf;
+.order_list_container .quicktAmt {
 
-padding: 1px 5px;
+    padding-top: 10px;
 }
-.header_top span{
+
+.order_list_container .btn_amt {
+
+    background: #6baddf;
+
+    padding: 1px 5px;
+}
+
+.header_top span {
     font-size: 18px;
 }
+
 /* order page end here  */
+/* notification page start here  */
+.message {
+    background: #365486;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.message span {
+    font-size: 50px;
+    margin: 6px;
+    color: #00000087;
+}
+
+.message p {
+    font-size: 12px;
+    margin: 0;
+    color: #bdbdbd;
+}
+
+.message h6 {
+    color: #fff;
+    margin: 0;
+    font-size: 12px;
+}
+
+.message a {
+    font-size: 12px;
+}
+
+.message.unread {
+    border: 1px solid #fff;
+}
+
+/* notification page end here  */
+
+/* ==================== deposite page start here  ================ */
+.deposite-page {}
+
+.crypto_section {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 5px;
+}
+
+.crypto_section a {
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 10px #00000014;
+    padding: 5px;
+    background: #10203beb;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.crypto_section a h6 {
+
+    margin: 0;
+
+    margin-top: 3px;
+
+    font-size: 14px;
+
+    text-align: center;
+}
+
+.crypto_section a img {
+
+    width: 100%;
+
+    max-width: 40px;
+}
+
+/* topbar part start here */
+.top_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.top_bar button {
+    background-color: transparent;
+    border: none;
+}
+
+.top_bar button i {
+
+    color: #a09c9c;
+}
+
+.top_bar h5 {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* topbar part end here  */
+
+/* qr code part start here  */
+.qr_box {
+    background: #fff;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box_text {}
+
+.box_text p {
+
+    color: #6baddf;
+
+    padding: 10px 40px;
+
+    text-align: center;
+
+    font-size: 12px;
+}
+
+/* qr part end here  */
+
+/* deposite form part start here  */
+.deposite_form {}
+
+.deposite_form form {}
+
+.deposite_form h3 {
+
+    color: #5e5e5e;
+
+    font-size: 14px;
+
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+}
+
+.deposite_form input {
+    background: transparent;
+    color: #fff;
+
+}
+
+.deposite_form input:focus {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+.deposite_form input::placeholder {
+    color: #a09c9c;
+}
+
+.deposite_form h2 {
+
+    font-size: 16px;
+
+    color: #3F51B5;
+}
+
+.deposite_form button {
+
+    background: transparent;
+
+    border: none;
+
+    color: #fff;
+}
+
+.deposite_form button i {
+
+    color: #3F51B5;
+}
+
+.btn_ammount {
+
+    border: 1px solid #fff !important;
+
+    width: 100%;
+
+    margin-top: 12px;
+
+    font-size: 14px;
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 10px #2220202e;
+
+    background: #6baddf !important;
+}
+
+/* information part start here  */
+.form_information {
+
+    background: #ffffff12;
+
+    padding: 20px 0px;
+
+    border-radius: 10px;
+
+    margin: 20px 0px;
+}
+
+.form_information h4 {
+
+    color: #000000a3;
+
+    margin: 0;
+
+    font-size: 16px;
+}
+
+.form_information p {
+
+    color: #3F51B5;
+
+    margin: 0;
+
+    font-size: 14px;
+
+    text-align: end;
+}
+
+/* inpformation part end here  */
+.btn_confirm {
+
+    background: #1c955d !important;
+
+    margin-top: 10px;
+
+    font-size: 18px !important;
+
+    padding: 5px 0px !important;
+}
+
+.btn_ammount:hover {
+    color: #fff;
+    background: #6baddf;
+}
+
+/* deposite form part end here  */
+@media only screen and (max-width: 993px) {
+    .deposite_form button {
+        /* background: transparent; */
+        border: none;
+        color: #fff;
+        padding: 0px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .deposite_form button {
+        /* background: #6baddf; */
+        border: none;
+        color: #ffffff;
+        padding: 0px;
+        font-size: 14px;
+    }
+}
+
+.deposite-page .nav-pills {
+
+    background: #6baddf1a;
+
+    padding: 3px;
+
+    border-radius: 5px;
+
+    position: sticky;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 2;
+}
+
+.deposite-page {
+
+    min-height: 85vh;
+}
+
+.deposite-page .nav-item {
+    width: 50%;
+    padding: 0px 2px;
+}
+
+.deposite-page .nav-item .nav-link {
+    width: 100%;
+    background: #23314a2e;
+    color: #23314a;
+    font-weight: 500;
+}
+
+.deposite-page .nav-item .nav-link.active {
+
+    background: #23314a;
+
+    color: #fff;
+}
+
+.depo_title {}
+
+.depo_title h5 {
+    font-size: 18px;
+}
+
+.bnk_box {
+    text-align: center;
+    max-width: 100px;
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+
+/* =========================== deposite page end here ================  */
