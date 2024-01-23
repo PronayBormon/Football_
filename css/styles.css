@@ -175,10 +175,13 @@ body {
 
 .sec_icon p {
 
-    margin: 0;
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
+margin: 0;
+
+font-size: 10px;
+
+font-weight: 600;
+
+color: #fff;
 }
 
 /* latest section start here  */
@@ -439,7 +442,7 @@ footer h2 {
 }
 
 .menus_ a p {
-    font-size: 12px;
+    font-size: 10px;
     color: #6e6e6e;
     margin: 0;
 }
@@ -1283,25 +1286,29 @@ footer h2 {
 
 .deposite_form h3 {
 
-    color: #5e5e5e;
+color: #5e5e5e;
 
-    font-size: 14px;
+font-size: 12px;
 
-    margin-top: 20px;
+margin-top: 20px;
 
-    margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
-.deposite_form input {
+.deposite_form input,.deposite_form select,.deposite_form textarea {
     background: transparent;
-    color: #fff;
+    color: #000;
 
 }
 
-.deposite_form input:focus {
+.deposite_form input:focus,.deposite_form select:focus,.deposite_form textarea:focus {
     background-color: transparent;
-    color: #fff;
+    color: #000;
     box-shadow: none;
+}
+.deposite_form .col-2{
+    /* margin: 0px 3px; */
+    padding: 0px 2px;
 }
 
 .deposite_form input::placeholder {
@@ -1310,9 +1317,9 @@ footer h2 {
 
 .deposite_form h2 {
 
-    font-size: 16px;
+font-size: 12px;
 
-    color: #3F51B5;
+color: #3F51B5;
 }
 
 .deposite_form button {
@@ -1360,11 +1367,11 @@ footer h2 {
 
 .form_information h4 {
 
-    color: #000000a3;
+color: #000000a3;
 
-    margin: 0;
+margin: 0;
 
-    font-size: 16px;
+font-size: 12px;
 }
 
 .form_information p {
@@ -1469,5 +1476,9 @@ footer h2 {
     text-align: center;
     margin: 20px auto 0px auto;
 }
-
+.deposite_form  p{
+    font-size: 12px;
+    margin: 0;
+    margin-top: 3px;
+}
 /* =========================== deposite page end here ================  */

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title  -->
+    <title>Apps </title>
+
+    <!-- bootstrap 5.3    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- google icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- fontawsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
+    <!-- style css  -->
+    <link rel="stylesheet" href="css/styles.css"> <!--Styles-->
+
+</head>
+
+<body>
+
+    <!-- header part start here  -->
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header_top py-2">
+                        <div>
+                            <a href="deposite.html"><span class="material-symbols-outlined"> chevron_left </span></a>
+                        </div>
+                        <div>
+                            <h1>Withdraw</h1>
+                        </div>
+                        <div>
+                            <div class="w-10"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header part end here  -->
+
+    <div class="container-fluid">
+        <form action="">
+            
+        </form>
+
+
+
+        <!-- deposit form part start here  -->
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div class="deposite_form pt-3" style="min-height: 85vh;">
+                    <form action="">
+                        <div class="">
+                            <div class="select_network mb-3">
+                                <h3>Select Network</h3>
+                                <div class="input-group">
+                                    <select name="currentcy" class="form-control" id="">
+                                        <option value="usdt" selected>USDT</option>
+                                        <option value="">BUSD</option>
+                                        <option value="">ADA</option>
+                                        <option value="">UCUP</option>
+                                        <option value="">USDC</option>
+                                        <option value="">AVAX</option>
+                                    </select>
+                                    <select name="network" class="form-control" id="">
+                                        <option value="TRC20" selected>TRC20</option>
+                                        <option value="">ERC20</option>
+                                        <option value="">BEP20(BSC)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <h3>Your wallet address</h3>
+                                <textarea name="" id="" placeholder="Enter your wallet address" cols="10" rows="2" class="form-control"></textarea>
+                            </div>
+                            <div class="my-3 mb-5">
+                                <h3>Ammount</h3>
+                                <div class="input-group">
+                                    <input type="text " class="form-control text-black" placeholder="00.00">
+                                    <button class="btn_ammount p-2 m-0" style="width: fit-content;">All</button>
+                                </div>
+                                <p><strong>Available Amount:</strong> 00.00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="my-3">
+                            <p>The minimum withdrawal amount is 1.000 USDT </p>
+                            <button class="btn btn-success form-control btn_ammount py-2">Withdraw</button>
+                            <p>Transaction fee: 1.000000 USDT</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- deposite form part end here  -->
+
+    </div>
+
+    <!-- mobile menu section start here  -->
+    <section class="mobile_menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="menus_">
+                        <a href="index.html">
+                            <span class="material-symbols-outlined"> home </span>
+                            <p>Home</p>
+                        </a>
+                        <a href="news.html">
+                            <span class="material-symbols-outlined">newspaper</span>
+                            <p>News</p>
+                        </a>
+                        <a href="schedule.html" class="">
+                            <span class="material-symbols-outlined"> calendar_month </span>
+                            <p>Schedule</p>
+                        </a>
+                        <a href="#">
+                            <span class="material-symbols-outlined"> stadium</span>
+                            <p>Stadium</p>
+                        </a>
+                        <a href="setings.html">
+                            <span class="material-symbols-outlined">more_horiz </span>
+                            <p>More</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- mobile menu section end here  -->
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!--Jquery Cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script> <!--Bootstrap-->
+
+
+</body>
+
+</html>
